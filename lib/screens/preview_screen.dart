@@ -33,7 +33,7 @@ class PreviewScreen extends StatelessWidget {
               },
               child: Text('Go to all captures'),
               style: TextButton.styleFrom(
-                primary: Colors.black,
+                foregroundColor: Colors.black,
                 backgroundColor: Colors.white,
               ),
             ),
