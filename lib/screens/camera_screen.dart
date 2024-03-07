@@ -240,7 +240,7 @@ class _CameraScreenState extends State<CameraScreen> with WidgetsBindingObserver
     if (controller == null) {
       return;
     }
-    controller?.setFocusMode(FocusMode.locked);
+    
     print("details.localPosition.dx ${details.localPosition.dx}");
     print("details.localPosition.dy ${details.localPosition.dy}");
     print("offset dx ${details.localPosition.dx / constraints.maxWidth}");
